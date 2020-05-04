@@ -1,0 +1,35 @@
+{
+  "name": "@dom-utils/selector-path",
+  "version": "1.0.0",
+  "description": "Returns unique selector for given element",
+  "keywords": [
+    "dom",
+    "selector"
+  ],
+  "author": "Cyrus-d <m.doaie@hotmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib/* tsconfig.package.tsbuildinfo && tsc -b ./tsconfig.package.json",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "trim": "^0.0.1"
+  },
+  "devDependencies": {
+    "global": "^4.4.0"
+  }
+}
