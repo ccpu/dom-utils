@@ -1,6 +1,6 @@
 {
   "name": "@dom-utils/selector-path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Returns unique selector for given element",
   "keywords": [
     "dom",
