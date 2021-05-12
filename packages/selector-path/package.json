@@ -27,7 +27,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "trim": "^0.0.1"
+    "trim": "^0.0.3"
   },
   "devDependencies": {
     "global": "^4.4.0"
